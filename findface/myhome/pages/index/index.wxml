@@ -1,9 +1,0 @@
-
-<camera device-position="front"  flash="off" binderror="error" style="width: 100%; height: 300px;"></camera>
-<button type="primary" bindtap="startTakePhoto">记住我</button><button type="primary" bindtap="endTakePhoto">找到我</button>
-<view wx:for="{{imglist}}" wx:for-item="item">
-<image mode="widthFix" src="{{item}}"></image>
-</view>
-<loading hidden="{{hidden}}">
-  查找中...
- </loading>
